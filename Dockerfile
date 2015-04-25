@@ -7,4 +7,5 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install \
   build-essential \
   software-properties-common \
   python-software-properties \
-  curl
+  curl \
+  git
