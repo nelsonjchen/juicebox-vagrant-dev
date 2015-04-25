@@ -10,3 +10,6 @@ RUN useradd --create-home -s /bin/bash vagrant && \
 
 # Enable passwordless sudo for vagrant
 RUN mkdir -p /etc/sudoers.d && echo "vagrant ALL= NOPASSWD: ALL" > /etc/sudoers.d/vagrant && chmod 0440 /etc/sudoers.d/vagrant
+
+USER vagrant
+WORKDIR /home/vagrant
