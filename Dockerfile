@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Guilhem Lettron "guilhem@lettron.fr"
+MAINTAINER Nelson Chen "nelson@mindflakes.com"
 
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 
