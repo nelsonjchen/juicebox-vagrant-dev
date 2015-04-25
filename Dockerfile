@@ -1,4 +1,4 @@
-FROM nelsonjchen/vagrant-ubuntu
+FROM nelsonjchen/docker-vagrant-ubuntu
 MAINTAINER Nelson Chen "nelson@mindflakes.com"
 
 USER root
